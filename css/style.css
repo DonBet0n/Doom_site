@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "AmazDooMLeft";
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.header__wrapper{
+    height: 100vh;
+    overflow: hidden;
+}
+.line_top{
+    background-color: #1c1c1ccc;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 14px 83px 14px 83px;
+    z-index: 999;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+#myVideo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    z-index: -999;
+  }
+.name_site{
+    font-size: 100px;
+    color: white;
+    height: 90px;
+    
+}
+.header__flexblock-column{
+    position: fixed;
+    top: 0;
+    font-size: 46px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.header__flexblock-column a{
+    margin-left: 2rem;
+    letter-spacing: 6px;
+    border: #ffff 2px;
+}
+.line{
+    width: 200px;
+    height: 4px;
+    background: #fff;
+    margin-top: -15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: #ffff 2px;
+}
+.line, a{
+    transition: .44s all;
+}
+.li_flexblock:hover .line{
+    width: 500px ;
+}
+.li_flexblock:hover a{
+    font-size:60px ;
+}
+.text {
+    color: #ffff;
+    font-family: "AmazDooMLeft";
+}
+
+.bck{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    z-index: -999;
+}
+.img_description{
+    width: 100%;
+     
+}
+.description_content{   
+    background-image: url('../img/wp4400671.jpg');
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+.text{
+    font-size: 300px;
+    text-align: right;
+    letter-spacing: 10px;
+}
+.evaluations{
+    right: 0;
+}
+.title_evaluations{
+    font-family: "Montserrat", sans-serif;
+    font-size: 300px;
+    text-transform: uppercase;
+}
