@@ -33,7 +33,35 @@
                 </div>
             </div>
 
-           
+        <div class="evaluations"> 
+                    
+            <div class="title_evaluations">doom eternal</div>  
+                <div class="score">
+                    <div class="score1"><img src="img\square_88.svg"><p>оцінка критиків</p></div>
+                    <div class="score1"><img src="img\circle8.8.svg"><p>оцінка гарвців</p></div>
+                 </div>
+            <div class="commit">
+                <div class="commit__name">
+                        <img class="img95" src="img\square_95.svg">
+                    <div class="men">
+                        <div class="nickname">gamespace</div>
+                        <div class="date">27.04.2020</div>
+                    </div> 
+                </div>
+               
+       
+            <div class="commit_text">Якщо вам сподобався DOOM 2016, думаю, 
+                вам сподобається DOOM Eternal. Вона взяла найкращі моменти 
+                2016 року і якимось чином знайшла спосіб їх покращити. 
+                Додайте сюди дивовижні пасхальні яйця, нові типи ворогів, 
+                механіку руху та дизайн рівнів - і ви отримаєте формулу 
+                дивовижності. Звичайно, вам знадобиться рівень або близько 
+                того, щоб зрозуміти цей новий бойовий ритм, але як тільки 
+                ви його знайдете, ви ніколи не захочете повертатися назад.
+            </div>
+            </div>
+        </div>
+            
                      
 
 

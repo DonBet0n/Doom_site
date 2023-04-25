@@ -40,6 +40,9 @@ a{
     height: 90px;
     
 }
+.flexblock ul{
+    list-style-type: none;
+}
 .header__flexblock-column{
     position: fixed;
     top: 0;
@@ -105,10 +108,78 @@ a{
     letter-spacing: 10px;
 }
 .evaluations{
-    right: 0;
+    right: 0px;
+    display: flex;
+    padding: 10% 12% 0 0;
+    position: absolute;
+    flex-direction: column;
+   ;
+}
+.evaluations p{
+    font-family: "Montserrat", sans-serif;
+    font-size: 33px;
+    text-transform: uppercase;
+    color: #fff;
+    padding:12px;
+    
 }
 .title_evaluations{
     font-family: "Montserrat", sans-serif;
-    font-size: 300px;
+    font-size: 54px;
     text-transform: uppercase;
+    color:#ffff;
+    margin-bottom: 3rem;
+}
+
+.commit{
+    background-color: #ffff;
+    border-radius: 15px;
+    height: 267px;
+    width: 591px;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0 0 0 ;
+
+}
+.img95{
+    width:50px;
+    height: 50px;
+    margin: 1rem 0 1rem 1rem   ;
+}
+.nickname{
+    color: #3c1effcc;
+    font-family: "Montserrat", sans-serif; 
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    
+}
+.score1 , .score{
+    display: flex;
+    align-items: center ;
+    max-width: 400px;
+}
+.date{
+    color: #A5A5A5;
+    font-family: "Montserrat", sans-serif; 
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-top: 0.5rem;
+}
+.men{
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+.commit_text{
+    color: #000000;
+    font-family: "Montserrat", sans-serif; 
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 0 1rem 0 1rem;
+    font-weight: 550;
+}
+.commit__name{
+    display: flex;
+    flex-direction: row;
 }
