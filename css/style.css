@@ -116,7 +116,7 @@ a{
    ;
 }
 .evaluations p{
-    font-family: "Montserrat", sans-serif;
+    font-family: "Montserratggit", sans-serif;
     font-size: 33px;
     text-transform: uppercase;
     color: #fff;
@@ -182,4 +182,5 @@ a{
 .commit__name{
     display: flex;
     flex-direction: row;
+    
 }
